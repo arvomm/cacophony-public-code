@@ -1,0 +1,19 @@
+[project]
+name = "cacophony-supervenience-model"
+version = "2.6.0"
+description = "Companion code for the paper's Bayesian supervenience model (Section 7): five consciousness levels C1 <- C2 <- ... <- C5 with strict/generalised supervenience edges, DCM-derived per-indicator (alpha, beta) priors, per-level posteriors, and overall credence across levels."
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "matplotlib>=3.8",
+    "scipy>=1.13",
+    "jupyter>=1.0",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["dcm_lab*"]
