@@ -1,5 +1,7 @@
 # DCM (support, demandingness) → cacophony (α, β) priors
 
+*DCM* is the **Digital Consciousness Model**: D. Shiller, L. Duffy, A. Muñoz Morán, A. Moret, C. Percy, and H. Clatterbuck. *Initial results of the Digital Consciousness Model*, 2026. URL https://arxiv.org/abs/2601.17060.
+
 ## What this is for
 
 The cacophony hierarchy model needs a `(TPR, FPR)` pair per indicator. The

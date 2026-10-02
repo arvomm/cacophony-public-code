@@ -1,11 +1,14 @@
 # The supervenience Bayesian network — companion code
 
-Companion code for the paper's Bayesian approach to assessing a system's
-consciousness (Section 7, *"Indicators, evidence, and the attribution of
-consciousness to AI systems"*). It implements the supervenience Bayesian
-network over the five-level hierarchy of functional descriptions, scores
-evidence vectors of indicator activations, and aggregates per-level posteriors
-into an overall credence.
+Companion code for the paper
+[*From cacophony to hierarchy: a principled framework for assessing AI consciousness*](https://arxiv.org/abs/2609.35618)
+(Chandaria, Muñoz Morán, Rosas, Seth, Shevlin et al., 2026), specifically its
+Bayesian approach to assessing a system's consciousness (Section 7,
+*"Indicators, evidence, and the attribution of consciousness to AI systems: A
+Bayesian approach"*). It implements the supervenience Bayesian network over the
+five-level hierarchy of functional descriptions, scores evidence vectors of
+indicator activations, and aggregates per-level posteriors into an overall
+credence.
 
 ## Start here
 
@@ -19,6 +22,11 @@ credence is computed.
 Want to play with it instead? Use the
 [live interactive explorer](https://ai-cognition.org/cacophony-tool/): click indicators, drag the sliders, and
 watch every posterior update live. Nothing to install.
+
+**What's "DCM"?** Throughout this repo, *DCM* means the **Digital Consciousness
+Model** (Shiller et al., 2026; full reference below), a Bayesian model for
+assessing AI consciousness. We reuse its per-indicator *support* and
+*demandingness* labels as a starting point for this model's indicator priors.
 
 Everything below is background and setup for people who want to run or modify the code.
 
@@ -105,3 +113,13 @@ MCMC.
 
 - The reuse of DCM support/demandingness parameters is a first approximation
   to illustrate model behaviour; see the paper for the caveats.
+
+## References
+
+- S. Chandaria, A. Muñoz Morán, F. Rosas, A. Seth, H. Shevlin, M. Hutter,
+  T. Graepel, A. Bales, I. Comsa, M. Shanahan, R. Laukkonen, M. Kringelbach,
+  C. Frith, and S. Legg. *From cacophony to hierarchy: a principled framework
+  for assessing AI consciousness*, 2026. URL https://arxiv.org/abs/2609.35618.
+- D. Shiller, L. Duffy, A. Muñoz Morán, A. Moret, C. Percy, and H. Clatterbuck.
+  *Initial results of the Digital Consciousness Model*, 2026. URL
+  https://arxiv.org/abs/2601.17060.
